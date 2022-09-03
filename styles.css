@@ -1,0 +1,45 @@
+body {
+    background-image: url("https://www.discosderock.com/wp-content/uploads/2020/07/king-gizzard-lizzard-wizard-banda-rock-australia.jpg");
+}
+
+h1 {
+    color: red;
+}
+img {
+    width: 400px;
+}
+
+li {
+    list-style: none;
+}
+ul{
+    padding: 0%;
+}
+img {
+    border: 2px double orange;;
+}
+#thirdDiv {
+    height: 600px;
+    width: 400px;
+    background: #e3eaa7;
+    padding: 50px;
+    border: 2px dotted blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+#spanId {
+    font-size: 18px;
+    margin: 50px;
+    color: white
+}
+
+.divClass {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+

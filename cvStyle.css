@@ -1,0 +1,97 @@
+body {
+    background: #FFEEEE;  
+    background: -webkit-linear-gradient(to right, #DDEFBB, #FFEEEE); 
+    background: linear-gradient(to right, #DDEFBB, #FFEEEE); 
+}
+
+h1 {
+    font-family: 'Silkscreen', cursive;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p, h2 {
+    text-align: center;
+    font-family:'Fjalla One', sans-serif;
+    font-size: 25px;
+}
+
+li, .type-txt{
+    list-style: none;
+    padding: 10px;
+    color: #34495E;
+    font-family:'Fjalla One', sans-serif;
+    font-size: 20px;
+}
+
+.li-js {
+    border-bottom: yellow solid;
+}
+.li-css {
+    border-bottom: blue solid;
+}
+.li-html {
+    border-bottom: orange solid;
+}
+.li-mern {
+    border-bottom: #5499C7 solid;
+}
+.li-sql {
+    border-bottom: grey solid;
+}
+.li-py {
+    border-bottom: green solid;
+}
+
+img {
+    height: 50px;
+    width: 55px;
+}
+
+.container, .containerExtra {
+    height: auto;
+    width: 600px;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    flex-direction: column;
+}
+
+.containerItems, .containerSkills, .containerHobby {
+    height: auto;
+    width: 600px;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    flex-direction: row;
+}
+
+.rowSkill {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.yo {
+    width: 273px;
+    height: 273px;
+    align-items: center;
+    border: black solid;
+}
+
+.btn-line {
+    border-bottom: grey solid
+}
